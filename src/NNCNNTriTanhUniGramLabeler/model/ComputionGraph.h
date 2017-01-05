@@ -55,7 +55,6 @@ public:
 			_word_inputs[idx].init(opts.wordDim, opts.dropProb, mem);
 			_hidden[idx].setParam(&model.hidden_linear);
 			_hidden[idx].init(opts.hiddenSize, opts.dropProb, mem);
-			_hidden[idx].setFunctions(&frelu, &drelu);
 		}
 		_word_window.init(opts.wordDim, opts.wordContext, mem);
 		_avg_pooling.init(opts.hiddenSize, -1, mem);

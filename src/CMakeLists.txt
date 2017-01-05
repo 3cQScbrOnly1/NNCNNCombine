@@ -10,3 +10,4 @@ add_subdirectory(NNCNNMaxReluUniBiGramLabeler)
 add_subdirectory(NNCNNMaxReluUniBiTriGramLabeler)
 
 add_subdirectory(NNCNNTriReluUniGramLabeler)
+add_subdirectory(NNCNNTriTanhUniGramLabeler)
